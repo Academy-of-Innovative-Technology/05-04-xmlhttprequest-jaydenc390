@@ -22,7 +22,7 @@ function postMessage() {
             console.log(JSON.parse(xhttp.responseText));
         }
     }
-    xhttp.open("POST", "http://100.66.169.151:3000/chat", true);
+    xhttp.open("POST", "http://100.66.169.122:3000/chat", true);
     xhttp.setRequestHeader("Content-Type", "application/json");
 
     xhttp.send(jsonString);
